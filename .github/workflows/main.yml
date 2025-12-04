@@ -5,7 +5,7 @@ on:
     - cron: "0 0 * * *"
 
 jobs:
-  run-script:
+  runs-script:
     runs-on: ubuntu-latest
     steps:
       - name: print message
